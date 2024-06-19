@@ -1,0 +1,237 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #282c3f;
+}
+
+/* header section */
+
+.navbar {
+  background-color: white;
+  height: 80px;
+}
+
+.nav-items {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.nav-logo img {
+  width: 62px;
+  height: 62px;
+}
+
+.nav-options {
+  display: flex;
+}
+
+.nav-options p {
+  font-size: 15px;
+  font-weight: 600;
+  margin: 0px 15px;
+}
+
+.nav-search {
+  display: flex;
+}
+
+.search-icon {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f2f2f2;
+}
+
+.search-tab {
+  width: 480px;
+  height: 40px;
+  border: none;
+  background-color: #f2f2f2;
+}
+
+.nav-icons {
+  display: flex;
+}
+
+.nav-icons a {
+  color: #282c3f;
+  text-decoration: none;
+}
+
+.profile,
+.wishlist,
+.bag {
+  margin: 0px 15px;
+}
+
+.profile p,
+.wishlist p,
+.bag p {
+  font-size: 12px;
+  font-weight: 600;
+  margin-top: 5px;
+}
+
+.profile i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+}
+
+.wishlist i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+}
+
+.bag i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+}
+
+.bag-count {
+  background-color: #f16565;
+  white-space: nowrap;
+  text-align: center;
+  line-height: 18px;
+  padding: 0px 6px;
+  position: relative;
+  border-radius: 50%;
+  font-size: 12px;
+  color: white;
+  left: 13px;
+  top: -44px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.main-container {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  gap: 25px;
+}
+
+.left-side {
+  width: 50%;
+}
+
+.right-side {
+  width: 50%;
+  padding: 15px;
+}
+
+.bag-item {
+  width: 594px;
+  height: 148px;
+  display: flex;
+  border: 1px solid #282c3f;
+  position: relative;
+  margin-top: 15px;
+  padding: 15px;
+}
+
+.left-item img {
+  height: 148px;
+  width: 111px;
+  background-size: cover;
+}
+
+.bag-item-name {
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.bag-item-detail {
+    font-size: 14px;
+}
+
+.bag-price {
+    display: flex;
+    align-items: center;
+}
+
+.bag-item-price {
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+
+.bag-item-originalprice {
+    font-size: 10px;
+    margin-left: 5px;
+    text-decoration: line-through;
+}
+
+.bag-item-discount {
+    font-size: 10px;
+    margin-left: 5px;
+    color: #ff905a
+}
+
+.remove {
+    position: absolute;
+    top: 18px;
+    right: 20px;
+    width: 14px;
+    height: 14px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+   
+}
+
+.right-item {
+    margin: 5px 0px 0px 15px;
+}
+
+.summary-box {
+    margin-top: 15px;
+}
+
+.totalMRP {
+    margin-top: 15px;
+}
+
+.discount {
+margin-top: 5px;
+}
+
+.mrp-value, .discount-value, .fee-value, .total-value {
+    float: right;
+}
+
+.fee {
+    margin-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid black;
+}
+
+.total {
+    margin-top: 5px;
+}
+
+.btn-summary {
+    width: 100%;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 530;
+    color: white;
+    margin-top: 25px;
+    background-color: rgb(255, 63, 108);
+    border: none;
+    cursor: pointer;
+}
